@@ -26,7 +26,7 @@ export function isReservationInput(value: unknown): value is ReservationInput {
   if (
     typeof data.quantity !== "number" ||
     !Number.isInteger(data.quantity) ||
-    data.quantity < -10 ||
+    data.quantity < 1 ||
     data.quantity > 10
   ) {
     return false;
