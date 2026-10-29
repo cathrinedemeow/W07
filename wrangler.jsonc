@@ -3,18 +3,19 @@
   "name": "w07-ci",
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
+  "workers_dev": true,
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "ticket-ci-lab",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_name": "W07",
+      "database_id": "e086385e-35fb-43ab-8c4c-0901f761691d",
       "migrations_dir": "migrations"
     }
   ],
   "kv_namespaces": [
     {
       "binding": "META",
-      "id": "00000000000000000000000000000000"
+      "id": "2e382b76d2b248b2bf6de4c8a1ff6199"
     }
   ]
 }
